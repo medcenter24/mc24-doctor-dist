@@ -1,0 +1,25 @@
+{
+    "name": "medcenter24/mc24-doctor-dist",
+    "description": "GUI for the doctor",
+    "keywords": ["api", "medcenter24", "dist", "doctor-dist"],
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "MedCenter24",
+            "email": "dev@medcenter24.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "type": "medcenter24-extension",
+    "extra": {
+        "medcenter24-extension-name": "guiDoctor"
+    },
+    "repositories": [],
+    "require": {
+        "medcenter24/lib-installer": "~1.0"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
